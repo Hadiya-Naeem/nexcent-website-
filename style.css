@@ -1,0 +1,19 @@
+:root{
+    --secondary:#4CAF4F;
+    --primary:#18191F;
+}
+.greenbtn{
+    color: var(--secondary);
+}
+.greenbtn:hover{
+    color: var(--secondary);
+}
+.greenbg{
+    background: var(--secondary);
+}
+.greenbg:hover{
+    background: var(--secondary);
+}
+.navcolor{
+    color: var(--primary);
+}
