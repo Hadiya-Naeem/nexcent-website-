@@ -1,6 +1,13 @@
 :root{
     --secondary:#4CAF4F;
     --primary:#18191F;
+    --bgcolor:#F5F7FA;
+    --textcolor:#717171;
+}
+
+/* header start  */
+.bgnav{
+    background:var(--bgcolor);
 }
 .greenbtn{
     color: var(--secondary);
@@ -17,3 +24,37 @@
 .navcolor{
     color: var(--primary);
 }
+
+/* header end */
+
+
+
+/* hero section start */
+.herodiv{
+    background-color: var(--bgcolor);
+}
+.hero{
+    background: var(--bgcolor);
+    padding: 40px;
+}
+.heroImg{
+    width: 80%;
+    background-color: var(--bgcolor);
+}
+.herobtn{
+    background: var(--secondary) !important;
+    padding: 12px 20px;
+}
+.herobtn:hover{
+    background-color: var(--secondary);
+    
+    
+}
+.spancolor{
+    color: var(--secondary);
+}
+.pcolor{
+    color: var(--textcolor);
+}
+
+/* hero section end */
