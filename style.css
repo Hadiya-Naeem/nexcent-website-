@@ -56,5 +56,12 @@
 .pcolor{
     color: var(--textcolor);
 }
+.fonts{
+    font-size: 18px;
+}
+.h1color{
+    color: #4D4D4D !important;
+}
+
 
 /* hero section end */
