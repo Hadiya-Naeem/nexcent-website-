@@ -4,6 +4,12 @@
     --bgcolor:#F5F7FA;
     --textcolor:#717171;
 }
+@font-face {
+    font-family:Inter ;
+    src: url(./fonts/Inter_18pt-SemiBold.ttf),
+       
+   
+}
 
 /* header start  */
 .bgnav{
@@ -65,3 +71,13 @@
 
 
 /* hero section end */
+
+/* client section */
+.clienth1{
+    color: var(--primary) !important;
+    font-family: Inter;
+}
+.gapbadges{
+    gap: 100px !important;
+}
+/* client end */
