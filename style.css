@@ -3,6 +3,7 @@
     --primary:#18191F;
     --bgcolor:#F5F7FA;
     --textcolor:#717171;
+    --headingcolor:#4D4D4D;
 }
 @font-face {
     font-family:Inter ;
@@ -39,12 +40,9 @@
 .herodiv{
     background-color: var(--bgcolor);
 }
-.hero{
-    background: var(--bgcolor);
-    padding: 40px;
-}
+
 .heroImg{
-    width: 80%;
+    width: 100%;
     background-color: var(--bgcolor);
 }
 .herobtn{
@@ -57,7 +55,7 @@
     
 }
 .spancolor{
-    color: var(--secondary);
+    color: var(--secondary) !important;
 }
 .pcolor{
     color: var(--textcolor);
@@ -66,7 +64,8 @@
     font-size: 18px;
 }
 .h1color{
-    color: #4D4D4D !important;
+    color: var(--headingcolor) !important;
+    font-family: Inter !important;
 }
 
 
@@ -74,10 +73,103 @@
 
 /* client section */
 .clienth1{
-    color: var(--primary) !important;
+    color: var(--headingcolor) !important;
     font-family: Inter;
+}
+
+.clientp{
+    color: var(--textcolor);
 }
 .gapbadges{
     gap: 100px !important;
 }
+
+
+.card-title{
+    font-family: Inter;
+    color: var(--headingcolor) !important;
+}
+.card-text{
+    color: var(--textcolor);
+}
+.cards{
+    border: none;
+   box-shadow: 0px 2px 4px 0px #ABBED133;
+
+}
+.fontfamily{
+    font-family: Inter;
+}
+
+
+.fontweight{
+    font-size: 36px;
+}
 /* client end */
+
+.featurebg{
+    background: var(--bgcolor);
+}
+
+
+.demo{
+    color: #263238;
+    font-family: Inter;
+}
+
+
+.btnsize{
+    width: 13%;
+}
+
+
+.footerbg{
+    background: #263238;
+}
+.footerimg{
+    width: 75%;
+    
+}
+.footerp{
+    color: #F5F7FA !important;
+}
+.inputbg{
+    background-color: #515b60 !important;
+
+}
+.inputbg::placeholder{
+    color: white !important;
+}
+.margin{
+    margin-right: 170px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .size{
+        width: 50%;
+    }
+    .btnsize{
+        width: 50%;
+    }
+    .footer{
+        gap: 30px;
+    }
+
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+   
+    .btnsize{
+        width: 25%;
+    }
+    .margin{
+        margin-right: 100px;
+    }
+}
+
