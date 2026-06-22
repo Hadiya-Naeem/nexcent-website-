@@ -109,6 +109,7 @@
 
 .featurebg{
     background: var(--bgcolor);
+    padding-bottom: 60px  !important;
 }
 
 
@@ -119,12 +120,13 @@
 
 
 .btnsize{
-    width: 13%;
+    width: 15%;
 }
 
 
 .footerbg{
     background: #263238;
+   padding: 1px 0px;
 }
 .footerimg{
     width: 75%;
