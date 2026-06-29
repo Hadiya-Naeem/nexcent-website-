@@ -67,7 +67,10 @@
     color: var(--headingcolor) !important;
     font-family: Inter !important;
 }
-
+.inputbg::placeholder{
+    
+     color: var(--textcolor);
+}
 
 /* hero section end */
 
